@@ -1,0 +1,38 @@
+{
+  "name": "ethereum-starter",
+  "version": "0.1.0",
+  "description": "Ethereum smart contracts starter.",
+  "main": "echo \"Error: no main file specified. Read README.md\" && exit 1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "geth:init": "./chainData/geth --datadir=./chainData/ init ./genesis.json",
+    "geth": "./chainData/geth --datadir=./chainData/",
+    "geth:create_account": "./chainData/geth account new --datadir=./chainData/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/koalex/ethereum-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koalex/ethereum-starter/issues"
+  },
+  "keywords": [
+    "ethereum",
+    "geth"
+  ],
+  "author": {
+    "name": "Konstantin Aleksandrov",
+    "email": "alexandrovkm@gmail.com",
+    "url": "https://github.com/koalex"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/koalex/ethereum-starter#readme",
+  "engines": {
+    "node": ">=8.9.4",
+    "npm": ">=5",
+    "yarn": "^1.5.1"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.1.8"
+  }
+}
