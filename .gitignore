@@ -1,0 +1,10 @@
+node_modules/
+.idea/
+.DS_Store
+npm-debug.log
+.bash_history deleted
+
+chainData/*
+!chainData/geth
+!chainData/COPYING
+geth.ipc
