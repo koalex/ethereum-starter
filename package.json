@@ -5,9 +5,9 @@
   "main": "echo \"Error: no main file specified. Read README.md\" && exit 1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "geth:init": "./chainData/geth --datadir=./chainData/ init ./genesis.json",
-    "geth": "./chainData/geth --datadir=./chainData/",
-    "geth:create_account": "./chainData/geth account new --datadir=./chainData/"
+    "geth:init": "geth --datadir=./chaindata init ./genesis.json",
+    "geth": "geth --datadir=./chaindata/",
+    "geth:create_account": "geth account new --datadir=./chaindata/"
   },
   "repository": {
     "type": "git",

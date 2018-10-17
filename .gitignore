@@ -4,7 +4,5 @@ node_modules/
 npm-debug.log
 .bash_history deleted
 
-chainData/*
-!chainData/geth
-!chainData/COPYING
+chaindata/*
 geth.ipc
