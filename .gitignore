@@ -5,4 +5,5 @@ npm-debug.log
 .bash_history deleted
 
 chaindata/*
+!chaindata/.gitkeep
 geth.ipc
