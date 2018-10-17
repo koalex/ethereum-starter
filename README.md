@@ -1,8 +1,34 @@
 # Ethereum smart contracts
 
 ### GETH (протокол Ethereum, написанный на Go)
-Бинарник кошелька лежит в папке **./geth**. Можно запускать его например с параметром *--datadir=путь* (директория для
-баз данных и хранилища ключей) либо выполнив:
+
+##### Установка:
+
+Mac OS
+
+```bash
+brew tap ethereum/ethereum
+brew install ethereum
+```
+
+Ubuntu
+
+```bash
+sudo apt-get install software-properties-common
+sudo add-apt-repository -y ppa:ethereum/ethereum
+sudo apt-get update
+sudo apt-get install ethereum
+```
+
+Windows - установить через [инсталлятор](https://ethereum.github.io/go-ethereum/downloads/).
+
+##### Инициализация:
+
+```bash
+npm run geth:init
+```
+
+##### Запуск:
 
 ```bash
 npm run geth
